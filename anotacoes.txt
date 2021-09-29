@@ -1,0 +1,39 @@
+Conceitos fundamentais
+    Coesão
+        "Classes não coesas tendem a crescer indefinidamente, dificultado sua manutenção"
+    Encapsulamento
+        "Proteger atributos em capsulas"
+         Classes não encapsuladas permitem violação de regras de negócios, além de aumentarem o acoplamento
+         Getters e setters por si só não fornecem nenhum tipo de encapsulamento
+    Acoplamento
+        Ação de acoplar, interligar elementos/classes.
+        Acoplamentos altos causam dependencias muito fortes entre as classes, o que é ruim.
+        "Classes acopladas causam fragilidade no código da aplicação, o que dificulta sua manutenção"
+
+Single responsibility principle (SRP)
+    "Just because you can, doesn't mean you should"
+    Principio diretamente relacionado com coesão: uma classe só deveria ter um motivo para ser alterada
+    O principio pode ter como exemplo as classes Service, que isola a regra de negócio das entidades, facilitando
+    a manutenção.
+
+Open-closed principle (OCP)
+    "Entidades de software (classes, módulos, funções) devem estar abertas para extensão e fechadas para modificação"
+    Esse principio está muito ligado e pode ser claramente visto com a utilização de interfaces e polimorfismo dos
+    métodos da mesma.
+
+Liskov Substitution Principle (LSP)
+    "If it looks like a duck, quacks like a duck, but needs batteries - you probably have the wrong abstraction"
+    A herança não deve ser utilizada para implementar apenas alguns dos atributos.
+    O principio prega que devemos favorecer a composição à herança.
+
+Dependency inversion principle (DIP)
+    "Would you dolder a lamp directly to the electrical wiring in a wall?"
+    -Abstrações não devem depender de implementações. Implementações devem depender de abstrações.
+        As interfaces possibilitam que isso se concretize
+
+Interface Segregation Principle (ISP)
+    "Uma classe não deveria ser forçada a depender de métodos que não utilizará"
+
+
+
+
